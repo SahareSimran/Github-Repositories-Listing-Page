@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#repo-div {
+  margin: 30px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: auto;
+}
+
+.user-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: 100%;
+  padding: 0 0 0 3%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  /* margin: 0 10px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 20px; */
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* .right p {
+    margin: 5px 0;
+}
+
+.right h1 {
+    margin: 5px 0;
+} */
+
+.link {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.content {
+  padding-left: 10px;
+  margin: 10px 20px 10 0;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 50px;
+  height: 30px;
+}
+
+.content input {
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 0 5px;
+  border-radius: 50px;
+}
+
+.search-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin: 30px 0;
+  padding-right: 50px;
+  height: 20%;
+  width: 100%;
+}
+
+.right p a {
+  color: black;
+}
+
+.right p a:hover {
+  color: red;
+}
+
+.left a:hover {
+  color: red;
+}
+
+.left a {
+  color: black;
+}
+
+.ri-twitter-fill {
+  font-size: 20px;
+  color: #1da1f2;
+  font-weight: bold;
+}
+
+.ri-github-fill {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.links a {
+  padding-left: 5px;
+}
